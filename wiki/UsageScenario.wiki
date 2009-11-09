@@ -22,4 +22,4 @@ I found that [http://www.truecrypt.org TrueCrypt] also supports [http://www.true
 
 The only way to solve these problems were by use of a script that would run before anyone logged in and searched for the key file on all possible removable drives. If it found the file it would go ahead and mount the encrypted disk. It not it would wait for the key file to become available. This is what this script does. It also provides additional options to disable a users account if the disk having the users profile is not mounted and re-enable the account when the disk becomes available.
 
-Now I start my laptop and wait for the login screen. Then I insert my USB key and this clever little script mounts the data partition and enables my account. I can then remove the USB key and log in like normal. Perfect!
+Now I start my laptop and wait for the login screen. Then I insert my USB key and this clever little script mounts the data partition and enables my account. I then remove the USB key and log in as usual. Perfect!
