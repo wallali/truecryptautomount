@@ -2,7 +2,7 @@
 
 =Protecting personal data on a laptop from theft=
 
-Having lost my laptop in a house theft I realized that BIOS passwords protect my laptop from being used or sold easily however they do not really protect my data because the thief can as very easily remove the hard drive from the laptop and plug it into another PC via USB and browse files on the disk. While I could insure my laptop against theft I could not insure data on the laptop. This is when I decided to use [http://www.truecrypt.org TrueCrypt] to encrypt the data on the disk so that only I could gain access to it even if the disk was removed from the laptop.
+Having lost my laptop in a house theft I realized that BIOS passwords protect my laptop from being used or sold easily however they do not really protect my data because the thief can very easily remove the hard drive from the laptop and plug it into another PC via USB and browse files on the disk. While I could insure my laptop against theft I could not insure data on the laptop. This is when I decided to use [http://www.truecrypt.org TrueCrypt] to encrypt the data on the disk so that only I could gain access to it even if the disk was removed from the laptop.
 
 The simple and most secure way of doing this is encrypting the entire [http://www.truecrypt.org/docs/?s=system-encryption system partition] and associated data partitions with the same password and enabling the [http://www.truecrypt.org/docs/?s=program-menu favourite partitions] option in [http://www.truecrypt.org TrueCrypt]. 
 However I did not want to encrypt the system partition because:
