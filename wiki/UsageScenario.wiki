@@ -1,4 +1,4 @@
-#summary A real life scenario of how this script is used.
+#summary A real life scenario of how this script is used with TrueCrypt.
 
 =Protecting personal data on a laptop from theft=
 
