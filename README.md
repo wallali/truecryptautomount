@@ -33,7 +33,7 @@ The script must be configured before it can be used. The configuration is saved 
     * users array - This works only if control_accounts is enabled. The list of local usernames for whom accounts are to be enabled/disabled as explained before. **Remember to change the size of the array to match the number of entries in line _new Array(1)_.**
 
 * dummy_container - Windows assigns the first available drive letter to an inserted USB disk device. This can cause problems if windows assigns the drive letter you intended to use for your encrypted partition/disk to the USB device containing the key file. To avoid this, the script can be given an empty TrueCrypt file container which it will mount in place of the actual encrypted partition/disk and then wait for the key file.
- ** dummy_pass - The password to use when mounting the dummy container. This is specified as plain text as the container is empty and does not contain any valuable information.
+    * dummy_pass - The password to use when mounting the dummy container. This is specified as plain text as the container is empty and does not contain any valuable information.
 
 
 Running the script
@@ -56,5 +56,5 @@ Similar/Related Programs
 ------------------------
 Some other open-source programs do things similar to this script.
 
-[TC Wrapper](http://sourceforge.net/projects/tc-wrapper/)
-[UKey](http://sourceforge.net/projects/ukey/)
+* [TC Wrapper](http://sourceforge.net/projects/tc-wrapper/)
+* [UKey](http://sourceforge.net/projects/ukey/)
