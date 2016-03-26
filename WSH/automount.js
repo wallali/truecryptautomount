@@ -85,7 +85,7 @@ if (!fso.FileExists(tc_path)){
                     }
 
                     if(!drive_reserved){
-                        var oExec = wshShell.Exec(tc_path+tc_args+auth_files[index]);
+                        var oExec = wshShell.Exec("\"" + tc_path + "\"" + tc_args + "\"" + auth_files[index] + "\"");
                         var status_wait = 1;
                         
                         while (oExec.Status == 0 && (status_wait%10)!=0){
